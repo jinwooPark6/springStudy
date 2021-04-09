@@ -13,6 +13,25 @@ public class Member {
 
     private String name;
 
+    public String getUserId() {
+        return userId;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    private String userId;
+    private String password;
+
     public Long getId() {
         return id;
     }
